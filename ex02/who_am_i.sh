@@ -1,6 +1,6 @@
 #!/bin/sh
 
-#ldapwhoami
+#ldapwhoami | grep "dn"
 
 echo uid=prama,cn=gssapi,cn=auth
 
